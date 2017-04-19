@@ -1,5 +1,48 @@
+*{
+  font-family: Ralewy,sans-serif;
+}
+
+body{
+  margin: 20px 40px;
+}
+
+figure{
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 50px;
+}
+
+figure img{
+    filter: brightness(70%);
+    transition: 0.4s;
+}
+
+figure img:hover{
+  filter: brightness(120%);
+}
+
+figcaption{
+    position: relative;
+    text-align: right;
+    bottom: 40px;
+    right: 10px;
+    color: white;
+}
+
+#content{
+  position: relative;
+  margin: 10px;
+}
+
+h1::after{
+  display: block;
+  width: 120px;
+  margin-top: 10px;
+  height: 8px;
+  content: "";
+  background-color: black;
+}
 .fotos{
   width: 100px;
   height: 100px;
-  overflow: hidden;
 }
