@@ -1,4 +1,6 @@
-var content = document.getElementById("content");
+var content = document.createElement("div");
+content.setAttribute("class","content");
+document.body.appendChild(content);
 
 /** Agregando titulo "Nuestras coders" **/
 var titulo = document.createElement("h1");
